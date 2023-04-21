@@ -62,4 +62,8 @@ public class Department {
                 ", departmentCode='" + departmentCode + '\'' +
                 '}';
     }
+
+    public Department (){
+
+    }
 }
