@@ -49,4 +49,10 @@ public class DepartmentImpl implements DepartmentService{
 
         return departmentRepository.save(dpForExistingId);
     }
+
+    @Override
+    public Department fetchDepartmentsByName(String departmentName) {
+        //return departmentRepository.findByDepartmentName(departmentName);
+        return departmentRepository.findByDepartmentNameIgnoreCase(departmentName); //This will give results if we pass any case letters Eg: CS, cs
+    }
 }
