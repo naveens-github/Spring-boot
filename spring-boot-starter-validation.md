@@ -4,3 +4,16 @@
 			<groupId>org.springframework.boot</groupId>     
 			<artifactId>spring-boot-starter-validation</artifactId>     
 		</dependency>    
+* 		We can add multiple validation like below.
+		* @NotBlank(message = "Please add the departmentName")
+		* @Length(max =10, min=2)
+		* @Size
+		* @Email
+		* @Positive
+		* @Negative
+		* @PostiveOrZero
+		* @NegativeOrZero
+		* @Future
+		* @FutureOrPresent
+		* @Past
+		* @PastOrPresent
