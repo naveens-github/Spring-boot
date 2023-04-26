@@ -16,3 +16,10 @@
 
 #### Adding loggers:
 *     private final Logger LOGGER = LoggerFactory.getLogger(DepartmentController.class);
+
+#### Project Lombok:
+*     Some annotations are:
+      @Data
+      @NoArgsConstructor
+      @AllArgsConstructor
+      @Builder
