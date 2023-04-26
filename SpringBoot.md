@@ -23,3 +23,7 @@
       @NoArgsConstructor
       @AllArgsConstructor
       @Builder
+
+#### Exception Handling:
+      class XXXXX extends Exception
+      class XXXXX extends ResponseEntityExceptionHandler
