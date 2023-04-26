@@ -12,3 +12,7 @@
 * @Controller - This annotation has @Component. No need to declare @component separately  
 * @RestController - this will always return a @ResponseBody
 * @GetMapping - This annotation has @RequestMapping(value = "/", method = RequestMethod.GET)
+
+
+#### Adding loggers:
+*     private final Logger LOGGER = LoggerFactory.getLogger(DepartmentController.class);
