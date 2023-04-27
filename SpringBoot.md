@@ -47,3 +47,13 @@
       Repository layer
       service layer
       controller layer 
+      
+* Annotations:
+	@BeforeEach	
+	@BeforeAll	
+	@Test	
+	@SpringBootTest		
+	@DataJpaTest	
+	@WebMvcTest	
+	@MockBean	
+	
