@@ -13,8 +13,6 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 @WebMvcTest(DepartmentController.class)
 class DepartmentControllerTest {
 
@@ -53,6 +51,11 @@ class DepartmentControllerTest {
     }
 
     @Test
-    void fetchDepartmentById() {
+    void fetchDepartmentById() throws Exception {
+        Mockito.when(departmentService.fetchDepartmentById(1L)).thenReturn(department);
+
+        mockMvc.perform(MockMvcRequestBuilders.get("/departments/1")
+                .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(MockMvcResultMatchers.status().isOk());
     }
 }
