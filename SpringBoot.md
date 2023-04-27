@@ -27,3 +27,23 @@
 #### Exception Handling:
       class XXXXX extends Exception
       class XXXXX extends ResponseEntityExceptionHandler
+      
+#### MySql properties & Dependency
+      spring.jpa.hibernate.ddl-auto=update
+      spring.datasource.url=jdbc:mysql://localhost:3306/dcbapp
+      spring.datasource.driverClassName=com.mysql.jdbc.Driver
+      spring.datasource.username=root
+      spring.datasource.password=XXXX
+      spring.jpa.show-sql: true
+      
+      Dependency:
+      <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+	</dependency>
+
+#### Unit testing:
+      Repository layer
+      service layer
+      controller layer 
