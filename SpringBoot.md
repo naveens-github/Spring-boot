@@ -68,3 +68,8 @@
 	* It is also a default file supported by springboot.	
 	* It's human readable file.	
 	* It reduces the duplicate values.	
+
+#### Springboot profiles:
+	* Normally, we can create different yml files for different environments. 
+	* Ex: for dev-> application-dev.yml
+	* we can create a new document in yml file by using 3 hyphens(---)
