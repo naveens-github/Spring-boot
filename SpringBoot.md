@@ -73,3 +73,6 @@
 	* Normally, we can create different yml files for different environments. 
 	* Ex: for dev-> application-dev.yml
 	* we can create a new document in yml file by using 3 hyphens(---)
+
+#### Running springboot with multiple profiles:
+	* Go to target folder: java -jar Spring-boot-1.0.0.jar --spring.profiles.active=prod
