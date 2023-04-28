@@ -1,0 +1,14 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    password: XXXX
+    url: jdbc:mysql://localhost:3306/dcbapp
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+welcome:
+  message: Welcome to my project!
