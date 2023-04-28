@@ -59,3 +59,7 @@
 		@DisplayName("")
 		@Disabled
 	
+#### Adding config in properties file.
+	* Application.properties => welcome.message = Welcome to my project!
+	* class level =>        @Value("${welcome.message}")
+    				private String welcomeMessage;
