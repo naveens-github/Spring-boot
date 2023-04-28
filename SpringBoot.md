@@ -63,3 +63,8 @@
 	* Application.properties => welcome.message = Welcome to my project!
 	* class level =>        @Value("${welcome.message}")
     				private String welcomeMessage;
+				
+#### Adding application.yml
+	* It is also a default file supported by springboot.	
+	* It's human readable file.	
+	* It reduces the duplicate values.	
