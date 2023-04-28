@@ -76,3 +76,12 @@
 
 #### Running springboot with multiple profiles:
 	* Go to target folder: java -jar Spring-boot-1.0.0.jar --spring.profiles.active=prod
+
+#### Springboot Actuator:
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-actuator</artifactId>
+	</dependency>
+	
+	* Used to expose operational information about the running application — health, metrics, info, dump, env, etc.
+	
