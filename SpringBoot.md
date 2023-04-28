@@ -86,4 +86,5 @@
 	* Used to expose operational information about the running application — health, metrics, info, dump, env, etc.
 	
 #### Custom Actuator endpoint
-	* We can override the info whatever the actuator is providing. We can add additional details in the endpoint and we can use it.
+	* We can override the info whatever the actuator is providing. We can add additional details in the endpoint 
+	and we can use it.
